@@ -1,4 +1,7 @@
-package com.jonas.creational.factorymethod;
+package com.jonas.creational.factorymethod.factory;
+
+import com.jonas.creational.factorymethod.product.FileLogger;
+import com.jonas.creational.factorymethod.product.Logger;
 
 /**
  * 【 具体工厂 】

@@ -1,4 +1,4 @@
-package com.jonas.creational.factorymethod;
+package com.jonas.creational.factorymethod.product;
 
 /**
  * 【 抽象产品 】
