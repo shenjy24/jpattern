@@ -1,4 +1,4 @@
-package com.jonas.creational.builder;
+package com.jonas.creational.builder.product;
 
 import lombok.Data;
 

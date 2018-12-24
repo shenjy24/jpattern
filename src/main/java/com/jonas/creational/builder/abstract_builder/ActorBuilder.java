@@ -1,4 +1,6 @@
-package com.jonas.creational.builder;
+package com.jonas.creational.builder.abstract_builder;
+
+import com.jonas.creational.builder.product.Actor;
 
 /**
  * Abstract Builder

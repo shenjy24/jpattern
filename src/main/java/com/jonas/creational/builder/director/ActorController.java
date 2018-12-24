@@ -1,4 +1,7 @@
-package com.jonas.creational.builder;
+package com.jonas.creational.builder.director;
+
+import com.jonas.creational.builder.abstract_builder.ActorBuilder;
+import com.jonas.creational.builder.product.Actor;
 
 /**
  * 指挥者

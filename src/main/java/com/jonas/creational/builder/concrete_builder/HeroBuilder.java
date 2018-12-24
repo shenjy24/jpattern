@@ -1,4 +1,6 @@
-package com.jonas.creational.builder;
+package com.jonas.creational.builder.concrete_builder;
+
+import com.jonas.creational.builder.abstract_builder.ActorBuilder;
 
 /**
  * 【 enter the class description 】

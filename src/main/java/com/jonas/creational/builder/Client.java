@@ -1,5 +1,10 @@
 package com.jonas.creational.builder;
 
+import com.jonas.creational.builder.abstract_builder.ActorBuilder;
+import com.jonas.creational.builder.concrete_builder.AngelBuilder;
+import com.jonas.creational.builder.director.ActorController;
+import com.jonas.creational.builder.product.Actor;
+
 /**
  * 客户端
  *
