@@ -11,7 +11,7 @@ import com.jonas.util.XMLUtils;
 public class Client {
     public static void main(String[] args) {
         ScoreOperation operation = (ScoreOperation) XMLUtils.getBean();
-        int[] scores = {84,76,50,69,90,91,88,96};
+        int[] scores = {84, 76, 50, 69, 90, 91, 88, 96};
 
         System.out.println("成绩排序结果：");
         operation.sort(scores);
