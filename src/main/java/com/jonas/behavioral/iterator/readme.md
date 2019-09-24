@@ -7,7 +7,7 @@
 ## 结构
 在迭代器模式结构中包含聚合和迭代器两个层次结构，考虑到系统的灵活性和可扩展性，在
 迭代器模式中应用了工厂方法模式，其模式结构如图所示：
-![image](https://github.com/shenjy24/document/raw/master/images/iterator1.png)
+![image](https://github.com/shenjy24/document/raw/master/images/iterator.png)
 
 在迭代器模式结构图中包含如下几个角色：
 - Iterator（抽象迭代器）：它定义了访问和遍历元素的接口，声明了用于遍历数据元素的方法，例如：用于获取第一个元素的first()方法，用于访问下一个元素的next()方法，用于判断是
