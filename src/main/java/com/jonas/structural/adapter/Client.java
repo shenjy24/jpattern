@@ -1,6 +1,6 @@
 package com.jonas.structural.adapter;
 
-import com.jonas.structural.adapter.target.ScoreOperation;
+import com.jonas.structural.adapter.adapter.ScoreOperation;
 import com.jonas.util.XMLUtils;
 
 /**

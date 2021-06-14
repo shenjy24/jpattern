@@ -2,7 +2,6 @@ package com.jonas.structural.adapter.adapter;
 
 import com.jonas.structural.adapter.adaptee.BinarySearch;
 import com.jonas.structural.adapter.adaptee.QuickSort;
-import com.jonas.structural.adapter.target.ScoreOperation;
 
 /**
  * 操作适配器：适配器
