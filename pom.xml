@@ -5,11 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jonas</groupId>
-    <artifactId>jpattern</artifactId>
+    <artifactId>jackal-design-pattern</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <name>jpattern</name>
-    <url>git@github.com:shenjy24/jpattern.git</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

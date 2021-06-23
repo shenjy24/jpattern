@@ -1,8 +1,7 @@
 package com.jonas.structural.composite.component;
 
 /**
- * <p>
- * </p>
+ * 叶子构件
  *
  * @author shenjiayun
  * @since 2019-09-24
