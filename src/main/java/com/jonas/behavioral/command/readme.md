@@ -9,7 +9,7 @@
 ## 结构
 命令模式的核心在于引入了命令类，通过命令类来降低发送者和接收者的耦合度，请求发送者只需指定一个命令对象，再通过命令对象来调用请求接收者的处理方法，其结构如图所示：
 
-![image](https://github.com/shenjy24/document/raw/master/images/command.png)
+![image](https://github.com/shenjy24/document/raw/master/images/design_pattern/command.png)
 
 在命令模式结构图中包含如下几个角色：
 - Command（抽象命令类）：抽象命令类一般是一个抽象类或接口，在其中声明了用于执行请求的execute()等方法，通过这些方法可以调用请求接收者的相关操作。
