@@ -9,9 +9,12 @@ import lombok.Data;
  * @version 1.0
  * @date 2021-07-18
  */
-@Data
 public class Context {
     private Strategy strategy;
+
+    public void setStrategy(Strategy strategy) {
+        this.strategy = strategy;
+    }
 
     /**
      * 上下文接口
