@@ -20,7 +20,7 @@ public class ChartFactory {
             case "pie":
                 return new PieChart();
             case "line":
-                return new PieChart();
+                return new LineChart();
             default:
                 return null;
         }
