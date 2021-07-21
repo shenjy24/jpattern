@@ -4,7 +4,7 @@
 建造者模式一步一步创建一个复杂的对象，它允许用户只通过指定复杂对象的类型和内容就可以构建它们，用户不需要知道内部的具体构建细节。
 
 #### 角色
-![image](https://github.com/shenjy24/documents/raw/master/images/builder-pattern.gif)
+![image](https://github.com/shenjy24/document/raw/master/images/design_pattern/builder-pattern.gif)
 
 - Builder(抽象建造者)：它为创建一个产品Product对象的各个部件指定抽象接口，在该接口中一般声明两类方法，一类方法是buildPartX()，它们用于创建复杂对象的各个部件；另一类方法是getResult()，它们用于返回复杂对象。Builder既可以是抽象类，也可以是接口。
 - ConcreteBuilder(具体建造者)：它实现了Builder接口，实现各个部件的具体构造和装配方法，定义并明确它所创建的复杂对象，也可以提供一个方法返回创建好的复杂产品对象。
@@ -52,7 +52,7 @@ class Director {
    }
 
    public  void setBuilder(Builder builder) {
-          this.builder=builer;
+          this.builder=builder;
    }
 
    //产品构建与组装方法
